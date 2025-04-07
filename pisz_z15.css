@@ -1,9 +1,9 @@
-/* Zmiana koloru liter w <p> */
+/* Kolor liter w <p> */
 p {
-    color: #C4FFB6; /* Przykład dla daty urodzenia: miesiąc=12, dzień=15, numer buta=10 */
+    color: #68B360; /* R: 104, G: 179, B: 96 */
 }
 
-/* Zmiana koloru liter w <body> */
+/* Kolor liter w <body> */
 body {
-    color: rgb(50%, 20%, 80%); /* Przykład dla daty urodzenia: dzień=15, numer buta=10, miesiąc=12 */
+    color: rgb(60%, 38%, 80%);
 }
