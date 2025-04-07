@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zadanie 10 - Budowa selektora</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pytania i odpowiedzi dotyczące budowy selektora</h1>
+
+    <!-- Pytanie 1 -->
+    <ol>
+        <li>
+            <h2>1. Wymienić oraz opisz dwie części selektora.</h2>
+            <p><strong>Selektor składa się z dwóch części:</strong></p>
+            <ul>
+                <li><strong>Selektor:</strong> Określa elementy HTML, do których ma zostać przypisane formatowanie. Może to być znacznik (np. <code>p</code>, <code>h1</code>) lub klasa (np. <code>.klasa</code>).</li>
+                <li><strong>Deklaracja:</strong> Zawiera instrukcje formatowania umieszczone w nawiasach klamrowych <code>{...}</code>. Składa się z cech (właściwości) i wartości.</li>
+            </ul>
+        </li>
+
+        <!-- Pytanie 2 -->
+        <li>
+            <h2>2. Znaczenie nawiasów klamrowych {...}.</h2>
+            <p>Nawiasy klamrowe <code>{...}</code> otaczają deklaracje stylów CSS. Wewnątrz nich określa się właściwości (cechy) i ich wartości, które definiują formatowanie wybranego selektora.</p>
+        </li>
+
+        <!-- Pytanie 3 -->
+        <li>
+            <h2>3. Opisz cechy.</h2>
+            <p><strong>Cechy (właściwości):</strong> Są to atrybuty formatowania, które można przypisać do elementów HTML. Przykładami cech są:</p>
+            <ul>
+                <li><code>color</code> – określa kolor tekstu.</li>
+                <li><code>font-size</code> – określa wielkość czcionki.</li>
+                <li><code>background-color</code> – określa kolor tła.</li>
+            </ul>
+        </li>
+
+        <!-- Pytanie 4 -->
+        <li>
+            <h2>4. Opisz wartości.</h2>
+            <p><strong>Wartości:</strong> Są to konkretne ustawienia dla danej cechy. Mogą to być:</p>
+            <ul>
+                <li>Kolory, np. <code>red</code>, <code>#FFFFFF</code>.</li>
+                <li>Jednostki miar, np. <code>20px</code>, <code>10pt</code>.</li>
+                <li>Procenty, np. <code>50%</code>.</li>
+            </ul>
+        </li>
+
+        <!-- Pytanie 5 -->
+        <li>
+            <h2>5. Kiedy stosujemy znak średnika (;), kiedy nie jest konieczny?</h2>
+            <p><strong>Znak średnika (;)</strong> oddziela poszczególne deklaracje w ramach bloku stylu. Jest obowiązkowy między kolejnymi deklaracjami. Nie jest wymagany po ostatniej deklaracji w bloku.</p>
+            <p>Przykład:</p>
+            <pre>
+p {
+    color: red; /* Średnik jest wymagany */
+    font-size: 20px; /* Średnik jest wymagany */
+    background-color: yellow /* Średnik nie jest konieczny */
+}
+            </pre>
+        </li>
+    </ol>
+</body>
+</html>
