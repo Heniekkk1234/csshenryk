@@ -1,69 +1,40 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <title>Henryk Piszczek - Zadanie 18</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .blok1 {
-            width: calc(980px + 2px); /* szerokość DIV-a = 980 + numer w dzienniku (2) */
-            background-color: #FFA500; /* kolor tła DIV-a = #FFA500 (numer 5) */
-            color: #0000FF; /* kolor tekstu = #0000FF (numer 2) */
-            font-size: 1.5em; /* wielkość liter pierwszego wiersza */
-            line-height: 1.7em; /* wyrównanie kwadratowe */
-        }
-
-        .blok1 p:first-child {
-            font-size: 1em; /* wielkość liter drugiego wiersza */
-        }
-
-        .blok2 {
-            width: calc(1080px + 2px); /* szerokość DIV-a = 1080 + numer w dzienniku (2) */
-            background-color: #87CEEB; /* kolor tła DIV-a = #87CEEB (numer 6) */
-            color: #FFA500; /* kolor tekstu = #FFA500 (numer 2) */
-            font-size: 1em; /* wielkość liter pierwszego wiersza */
-            line-height: 1.2em; /* wyrównanie kwadratowe */
-        }
-
-        .blok2 p:first-child {
-            font-size: 8mm; /* wielkość liter drugiego wiersza */
-        }
-
-        .blok3 {
-            width: calc(1180px + 2px); /* szerokość DIV-a = 1180 + numer w dzienniku (2) */
-            background-color: #FFA500; /* kolor tła DIV-a = #FFA500 (numer 5) */
-            color: #0000FF; /* kolor tekstu = #0000FF (numer 2) */
-            font-size: 9mm; /* wielkość liter pierwszego wiersza */
-            line-height: 1.1em; /* wyrównanie okrąg */
-        }
-
-        .blok3 p:first-child {
-            font-size: 7mm; /* wielkość liter drugiego wiersza */
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Zadanie 18 - Henryk Piszczek</title>
+  <link rel="stylesheet" href="zadanie18_pisc.css">
 </head>
 <body>
 
-<div class="blok1">
-    <p>Witaj, to jest pierwszy blok DIV-a. Numer w dzienniku: 2.</p>
-    <p>Witaj, to jest drugi wiersz w bloku DIV-a.</p>
-</div>
+  <!-- Blok 1 -->
+  <div class="blok1">
+    <p class="linia1">To jest pierwszy wiersz w bloku 1</p>
+    <p class="linia2">To jest drugi wiersz w bloku 1</p>
+    <ul class="lista-kwadrat">
+      <li>Pozycja 1</li>
+      <li>Pozycja 2</li>
+    </ul>
+  </div>
 
-<div class="blok2">
-    <p>Witaj, to jest drugi blok DIV-a. Numer w dzienniku: 2.</p>
-    <p>Witaj, to jest drugi wiersz w bloku DIV-a.</p>
-</div>
+  <!-- Blok 2 -->
+  <div class="blok2">
+    <p class="linia1">To jest pierwszy wiersz w bloku 2</p>
+    <ul class="lista-kolo">
+      <li>Punkt A</li>
+      <li>Punkt B</li>
+    </ul>
+  </div>
 
-<div class="blok3">
-    <p>Witaj, to jest trzeci blok DIV-a. Numer w dzienniku: 2.</p>
-    <p>Witaj, to jest drugi wiersz w bloku DIV-a.</p>
-</div>
+  <!-- Blok 3 -->
+  <div class="blok3">
+    <p class="linia1">To jest tekst w bloku 3</p>
+    <ul class="lista-okrag">
+      <li>Element I</li>
+      <li>Element II</li>
+    </ul>
+  </div>
 
 </body>
-<!-- Henryk Piszczek -->
+<!-- Henryk Piszczek, 14.05.2025 -->
 </html>
