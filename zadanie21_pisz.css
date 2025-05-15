@@ -1,0 +1,41 @@
+/* Henryk Piszczek, 15.05.2025 */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #e0e0e0;
+}
+
+#przyklad {
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #ffffcc;
+  border: 1px solid #aaa;
+}
+
+p {
+  color: green;
+  font-size: 14pt;
+}
+
+p#pochyly {
+  font-style: italic;
+  font-size: 20pt;
+}
