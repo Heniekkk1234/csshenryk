@@ -1,0 +1,24 @@
+body {
+    background-color: #ffffcc;
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    background-color: #000080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+p {
+    font-size: 30px;
+    color: #800000;
+}
+.inicjal {
+    background-color: yellow;
+    color: black;
+    font-size: 24pt;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
